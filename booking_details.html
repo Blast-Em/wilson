@@ -42,27 +42,38 @@
 		<div class="container text-center" id="title">
 			<h1>Schedule Your Fitting Appointment</h1>
 		</div>
-		<form>
-			<div class="form-group">
-				<label for="first">First Name</label>
+		<form method="post" action="confirmation.html">
+			<div class="form-group m-3">
+				<label for="first" class="col-md-4 text-right">First Name</label>
 				<input type="text" class="form-control" id="first" placeholder="John">
 			</div>
-			<div class="form-group">
+			<div class="form-group m-3">
 				<label for="last">Last Name</label>
 				<input type="text" class="form-control" id="last" placeholder="Doe">
 			</div>
-			<div class="form-group">
+			<div class="form-group m-3">
 				<label for="email">Email address</label>
 				<input type="email" class="form-control" id="email" placeholder="name@example.com">
 			</div>
-			<div class="form-group">
+			<div class="form-group m-3">
 				<label for="phone_number">Phone Number</label>
 				<input type="tel" class="form-control" id="phone_number" placeholder="000-000-0000">
 			</div>
-			<div class="form-group">
+			<div class="form-group m-3">
+				<label for="date">Appointment Date</label>
+				<input type="date" class="form-control" id="date">
+			</div>
+			<div class="form-group m-3">
+				<label for="time">Appointment Time</label>
+				<input type="time" class="form-control" id="time">
+			</div>
+			<div class="form-group m-3">
 				<label for="details">Tell us about your golfing experience and what you want to get out of
 					your fitting:</label>
 				<textarea class="form-control" id="details" rows="3"></textarea>
+			</div>
+			<div class="mb-3">
+				<button tupe="submit" class="btn btn-danger">Submit</button>
 			</div>
 		</form>
 	</main>

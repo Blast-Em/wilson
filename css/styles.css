@@ -58,6 +58,11 @@ nav > ul {
     height: 40px;
 }
 
+.menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
 .nav-menu-buttons {
     position: relative;
     padding: 0;

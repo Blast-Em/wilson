@@ -161,3 +161,8 @@ hr {
 .map a {
     text-decoration: none;
 }
+
+#fitting-list {
+    max-height: 30em;
+    overflow: auto;
+}

@@ -107,8 +107,8 @@ hr {
 
 .title {
     position: relative;
-    margin-top: 96px;
-    margin-bottom: 48px;
+    /* margin-top: 96px; */
+    padding-bottom: 2em;
 }
 
 .title > h1 {
@@ -141,4 +141,23 @@ hr {
     font-family: sans-serif;
     text-align: center;
 
+}
+
+/* OpenLayers Map */
+.map {
+    height: 30em;
+    width: 50%;
+    display: flex;
+    float: right;
+  }
+
+.map li {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    list-style: none;
+}
+
+.map a {
+    text-decoration: none;
 }

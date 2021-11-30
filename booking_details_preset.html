@@ -42,7 +42,7 @@
 		</div>
 	</nav>
 
-	<main class="container text-center">
+	<main class="container">
 		<div class="container text-center title" id="title">
 			<h1>Schedule Your Fitting Appointment</h1>
 		</div>
@@ -68,10 +68,10 @@
 				<input type="time" class="form-control" id="time">
 			</div>
 			<div class="form-group m-3">
-				<label for="details">What type of equipment do you play with?</label>
+				<label for="details">Are you right handed or left handed?</label>
 				<select class="form-select" id="club-type">
-					<option value="mens">Men's Clubs</option>
-					<option value="womens">Women's Clubs</option>
+					<option value="mens">Right handed</option>
+					<option value="womens">Left handed</option>
 				</select>
 			</div>
 			<div class="form-group m-3">
@@ -87,23 +87,20 @@
 				</select>
 			</div>
 			<div class="form-group m-3">
-				<p>How tall are you?</p>
-				<label for="feet"></label>
+				<label for="feet">How tall are you?</label>
 				<input type="number" class="form-control" id="feet" placeholder="Feet">
 
-				<label for="inches"></label>
 				<input type="number" class="form-control" id="inches" placeholder="Inches">
 			</div>
 			<div class="form-group m-3">
-				<label for="details">Is this your first fitting?</label>
+				<label for="details">Have you bought custom clubs before?</label>
 				<select class="form-select" id="age-range">
 					<option value="first-time">I'm buying clubs for the first time</option>
 					<option value="upgrading">I'm upgrading my clubs</option>
-					<option value="specific">I'm looking for specific clubs</option>
 				</select>
 			</div>
 			<div class="mb-3">
-				<button type="submit" class="btn btn-danger">Submit</button>
+				<button type="submit" class="btn btn-danger btn-right">Submit</button>
 			</div>
 		</form>
 	</main>

@@ -48,7 +48,7 @@
 		</div>
 		<form method="post" action="confirmation.html">
 			<div class="form-group m-3">
-				<label for="first" class="col-md-4 text-right">First Name</label>
+				<label for="first" class="col-md-4">First Name</label>
 				<input type="text" class="form-control" id="first" placeholder="John">
 			</div>
 			<div class="form-group m-3">
@@ -72,9 +72,39 @@
 				<input type="time" class="form-control" id="time">
 			</div>
 			<div class="form-group m-3">
-				<label for="details">Tell us about your golfing experience and what you want to get out of
-					your fitting:</label>
-				<textarea class="form-control" id="details" rows="3"></textarea>
+				<label for="details">What type of equipment do you play with?</label>
+				<select class="form-select" id="club-type">
+					<option value="mens">Men's Clubs</option>
+					<option value="womens">Women's Clubs</option>
+				</select>
+			</div>
+			<div class="form-group m-3">
+				<label for="details">How old are you?</label>
+				<select class="form-select" id="age-range">
+					<option value="under-18">Under 18</option>
+					<option value="18-25">18-25</option>
+					<option value="26-34">26-34</option>
+					<option value="35-49">35-49</option>
+					<option value="50-59">50-59</option>
+					<option value="60-69">60-69</option>
+					<option value="70+">70+</option>
+				</select>
+			</div>
+			<div class="form-group m-3">
+				<p>How tall are you?</p>
+				<label for="feet"></label>
+				<input type="number" class="form-control" id="feet" placeholder="Feet">
+
+				<label for="inches"></label>
+				<input type="number" class="form-control" id="inches" placeholder="Inches">
+			</div>
+			<div class="form-group m-3">
+				<label for="details">Is this your first fitting?</label>
+				<select class="form-select" id="age-range">
+					<option value="first-time">I'm buying clubs for the first time</option>
+					<option value="upgrading">I'm upgrading my clubs</option>
+					<option value="specific">I'm looking for specific clubs</option>
+				</select>
 			</div>
 			<div class="mb-3">
 				<button type="submit" class="btn btn-danger">Submit</button>
